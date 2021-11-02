@@ -30,7 +30,7 @@ const INPUT = {
             document.getElementById(fieldName).style.border = `2px solid ${color}`;
         }
     }
-};
+}; 
 
 // UI variables
 const form = document.getElementById('form');
