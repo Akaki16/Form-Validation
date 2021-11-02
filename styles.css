@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: rgb(236, 236, 236);
+    letter-spacing: 1.1px;
+    font-family: sans-serif;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+header .underline {
+    transform: translateY(15px);
+    width: 300px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+header h1 {
+    font-size: 2.6rem;
+    font-weight: normal;
+    color: #333;
+}
+
+.form-box {
+    padding: 20px;
+    transform: translateY(50px);
+    width: 600px;
+    height: auto;
+    background: rgb(231, 231, 231);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+}
+
+.form-box .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box .form-group input {
+    margin: 6px;
+    height: 40px;
+    padding: 10px;
+    font-size: 19px;
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+.form-box .form-group label {
+    margin: 6px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-box .form-group small {
+    margin: 6px;
+}
+
+.form-box .form-group button {
+    margin: 6px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    background: rgb(42, 133, 117);
+    color: #fff;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.form-box .form-group button:hover {
+    background: rgb(34, 160, 149);
+    border-radius: 0px;
+}
+
+@media (max-width: 636px) {
+    header h1 {
+        font-size: 2.3rem;
+    }
+
+    header .underline {
+        width: 90%;
+    }
+
+    .form-box {
+        width: 95%;
+    }
+}
