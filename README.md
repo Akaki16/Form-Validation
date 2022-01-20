@@ -6,6 +6,8 @@ Form Validation is implemented using Vanilla JavaScript
 
 This form validates - `username` `email` `password` and `confirmation password` fields
 
+[live demo](https://akaki16.github.io/Form-Validation/)
+
 ### Running documentation
 
 Open terminal in your operating system
